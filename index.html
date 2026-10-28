@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXORA INTERNATIONAL HOSPITAL | Where Advanced Care Meets a Kinder Tomorrow</title>
+  <meta name="description" content="Nexora International Hospital provides world-class medical expertise, cutting-edge surgical robotics, and compassionate patient-centered healthcare.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='50,5 62,38 95,50 62,62 50,95 38,62 5,50 38,38' fill='%239E7145'/></svg>">
+</head>
+<body>
+
+  <!-- =========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" aria-label="Nexora International Hospital Home">
+        <div class="logo-symbol">
+          <svg width="34" height="34" viewBox="0 0 100 100" fill="none">
+            <path d="M50 0L56 36C58 44 64 50 72 52L98 50L72 58C64 60 58 66 56 74L50 100L44 74C42 66 36 60 28 58L2 50L28 52C36 50 42 44 44 36L50 0Z" fill="#9E7145"/>
+            <circle cx="50" cy="50" r="7" fill="#FAF7F2"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">NEXORA</span>
+          <span class="brand-tagline">INTERNATIONAL HOSPITAL</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="main-navigation" aria-label="Main navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#specialties" class="nav-link">Specialties</a></li>
+          <li><a href="#doctors" class="nav-link">Doctors</a></li>
+          <li><a href="#innovation" class="nav-link">Services</a></li>
+          <li><a href="#facilities" class="nav-link">Facilities</a></li>
+          <li><a href="#comfort" class="nav-link">Patients Care</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Items -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button class="search-btn" id="search-trigger" aria-label="Search hospital services">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- Primary CTA Book Appointment -->
+        <a href="#appointment-modal" class="btn-bronze" id="header-book-btn" onclick="openBookingModal()">
+          <span>Book Appointment</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="mobile-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <div class="drawer-top">
+      <span class="drawer-logo-text">NEXORA HOSPITAL</span>
+      <button class="drawer-close-btn" id="drawer-close">&times;</button>
+    </div>
+    <ul class="drawer-nav-list">
+      <li><a href="#home" class="drawer-link">Home</a></li>
+      <li><a href="#about" class="drawer-link">About</a></li>
+      <li><a href="#specialties" class="drawer-link">Specialties</a></li>
+      <li><a href="#doctors" class="drawer-link">Doctors</a></li>
+      <li><a href="#innovation" class="drawer-link">Services</a></li>
+      <li><a href="#facilities" class="drawer-link">Facilities</a></li>
+      <li><a href="#comfort" class="drawer-link">Patients Care</a></li>
+      <li><a href="#contact" class="drawer-link">Contact</a></li>
+    </ul>
+    <div class="drawer-cta-wrapper">
+      <button class="btn-bronze w-full" onclick="openBookingModal()">Book Appointment &rarr;</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- =========================================================================
+         SECTION 1: HERO SECTION (With Full Parallax Background)
+         ========================================================================= -->
+    <section class="hero-section" id="home">
+      <!-- Full Parallax Background Image Layer -->
+      <div class="hero-parallax-wrapper">
+        <img 
+          src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=2400&q=85" 
+          alt="Nexora International Hospital Architectural Facade" 
+          class="hero-parallax-bg" 
+          id="hero-parallax-img"
+          data-speed="0.42">
+      </div>
+
+      <div class="hero-container">
+        <!-- Hero Left Column: Editorial Headline & Actions -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="sub-label pulse-badge">A NEW ERA IN HEALTHCARE</div>
+          
+          <h1 class="hero-title">
+            Where<br>
+            Advanced Care<br>
+            Meets a Kinder<br>
+            Tomorrow
+          </h1>
+
+          <p class="hero-description">
+            World-class medical expertise, cutting-edge technology, and compassionate care all working together to heal and restore well.
+          </p>
+
+          <div class="hero-actions-group">
+            <button class="btn-bronze hero-cta" onclick="openBookingModal()">
+              <span>Book Appointment</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+
+            <a href="#facilities" class="btn-outline-pill">
+              <span>Explore Our Hospital</span>
+              <span class="play-icon-circle">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics Bar -->
+          <div class="hero-metrics-strip">
+            <div class="metric-item">
+              <span class="metric-num" data-count="25">25+</span>
+              <span class="metric-label">Specialties</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num" data-count="500">500+</span>
+              <span class="metric-label">Expert Doctors</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num">1M+</span>
+              <span class="metric-label">Lives Touched</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num" data-count="99">99%</span>
+              <span class="metric-label">Patient Satisfaction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TRUST & ACCREDITATION STRIP (6 Columns with Hover Micro-Animations)
+         ========================================================================= -->
+    <section class="trust-strip-section" aria-label="Hospital Services & Key Advantages">
+      <div class="trust-container">
+        <!-- Item 1 -->
+        <div class="trust-box reveal-on-scroll delay-1">
+          <div class="trust-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <div class="trust-text">
+            <span class="trust-title">24/7 EMERGENCY</span>
+            <span class="trust-desc">Trauma Care Ready</span>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="trust-box reveal-on-scroll delay-2">
+          <div class="trust-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="8.5" cy="7" r="4"></circle>
+              <polyline points="17 11 19 13 23 9"></polyline>
+            </svg>
+          </div>
+          <div class="trust-text">
+            <span class="trust-title">EXPERT DOCTORS</span>
+            <span class="trust-desc">Renowned Specialists</span>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="trust-box reveal-on-scroll delay-3">
+          <div class="trust-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+            </svg>
+          </div>
+          <div class="trust-text">
+            <span class="trust-title">MODERN ICU</span>
+            <span class="trust-desc">Advanced Technology</span>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="trust-box reveal-on-scroll delay-4">
+          <div class="trust-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M2 12h20"></path>
+              <circle cx="12" cy="12" r="9"></circle>
+            </svg>
+          </div>
+          <div class="trust-text">
+            <span class="trust-title">24/7 PHARMACY</span>
+            <span class="trust-desc">In-House Medication</span>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="trust-box reveal-on-scroll delay-1">
+          <div class="trust-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <div class="trust-text">
+            <span class="trust-title">TELEMEDICINE</span>
+            <span class="trust-desc">Digital Consultations</span>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="trust-box reveal-on-scroll delay-2">
+          <div class="trust-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 18h12"></path>
+              <path d="M10 22h4"></path>
+              <path d="M10 2v4"></path>
+              <path d="M14 2v4"></path>
+              <path d="M8 6h8a2 2 0 0 1 2 2v8a6 6 0 0 1-12 0V8a2 2 0 0 1 2-2z"></path>
+            </svg>
+          </div>
+          <div class="trust-text">
+            <span class="trust-title">LABORATORY</span>
+            <span class="trust-desc">Rapid Diagnostics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 2: OUR SPECIALTIES (Auto-Sliding Luxury Carousel with Background)
+         ========================================================================= -->
+    <section class="section-wrapper specialties-section" id="specialties">
+      <!-- Section Atmospheric Background Image with Parallax -->
+      <div class="section-parallax-bg-layer specialties-bg-layer">
+        <img 
+          src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=2200&q=85" 
+          alt="Hospital Interior Architecture Background" 
+          class="section-parallax-img"
+          data-speed="0.25">
+        <div class="section-overlay-cream specialties-overlay"></div>
+      </div>
+
+      <div class="section-container relative-content">
+        <!-- Section Header with View All & Controls -->
+        <div class="section-title-row reveal-on-scroll">
+          <div>
+            <div class="sub-label">OUR SPECIALTIES</div>
+            <h2 class="section-heading">Comprehensive Care<br>for Every Stage of Life</h2>
+          </div>
+          <div class="title-right-actions">
+            <button class="auto-play-indicator" id="auto-play-toggle" title="Click to pause or resume auto-sliding" type="button">
+              <span class="auto-dot" id="auto-dot"></span>
+              <span id="auto-status-text">Auto-Sliding</span>
+            </button>
+            <a href="#appointment-modal" class="view-all-link" onclick="openBookingModal()">
+              <span>View All Specialties</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <div class="slider-arrows">
+              <button class="arrow-btn" id="specialties-prev" aria-label="Previous specialties">&larr;</button>
+              <button class="arrow-btn" id="specialties-next" aria-label="Next specialties">&rarr;</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specialties Grid (8 Visual Cards with Auto-Sliding) -->
+        <div class="specialties-carousel" id="specialties-slider">
+          <!-- Card 1: Cardiology -->
+          <div class="specialty-card reveal-on-scroll delay-1" onclick="selectSpecialtyAndBook('Cardiology')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&w=800&q=80" alt="Cardiology specialty" class="thumb-img">
+              <span class="card-badge">Heart Institute</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Cardiology</h3>
+                <span class="card-sub-info">Robotic Valve Repair &bull; 99.7% Success</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Neurology -->
+          <div class="specialty-card reveal-on-scroll delay-2" onclick="selectSpecialtyAndBook('Neurology')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&q=80" alt="Neurology specialty" class="thumb-img">
+              <span class="card-badge">Brain Center</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Neurology</h3>
+                <span class="card-sub-info">7T Brain Mapping &bull; Awake Craniotomy</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Orthopedics -->
+          <div class="specialty-card reveal-on-scroll delay-3" onclick="selectSpecialtyAndBook('Orthopedics')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" alt="Orthopedics specialty" class="thumb-img">
+              <span class="card-badge">Joint & Spine</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Orthopedics</h3>
+                <span class="card-sub-info">3D Bioprinted Implants &bull; Fast Recovery</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Oncology -->
+          <div class="specialty-card reveal-on-scroll delay-4" onclick="selectSpecialtyAndBook('Oncology')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&q=80" alt="Oncology specialty" class="thumb-img">
+              <span class="card-badge">Cancer Institute</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Oncology</h3>
+                <span class="card-sub-info">CAR-T Immunotherapy &bull; Targeted Rays</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Women's Health -->
+          <div class="specialty-card reveal-on-scroll delay-1" onclick="selectSpecialtyAndBook('Women\'s Health')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80" alt="Women's Health specialty" class="thumb-img">
+              <span class="card-badge">Maternity Wing</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Women's Health</h3>
+                <span class="card-sub-info">Family Suites &bull; Gentle Obstetrics</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Pediatrics -->
+          <div class="specialty-card reveal-on-scroll delay-2" onclick="selectSpecialtyAndBook('Pediatrics')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" alt="Pediatrics specialty" class="thumb-img">
+              <span class="card-badge">Children Pavilion</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Pediatrics</h3>
+                <span class="card-sub-info">Level IV NICU &bull; Fetal Surgery</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7: Gastroenterology -->
+          <div class="specialty-card reveal-on-scroll delay-3" onclick="selectSpecialtyAndBook('Gastroenterology')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80" alt="Gastroenterology specialty" class="thumb-img">
+              <span class="card-badge">Digestive Health</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Gastroenterology</h3>
+                <span class="card-sub-info">Advanced Endoscopy &bull; Hepatic Care</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 8: Urology -->
+          <div class="specialty-card reveal-on-scroll delay-4" onclick="selectSpecialtyAndBook('Urology')">
+            <div class="card-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=800&q=80" alt="Urology specialty" class="thumb-img">
+              <span class="card-badge">Nephrology Care</span>
+            </div>
+            <div class="card-info">
+              <div class="card-meta">
+                <h3 class="card-name">Urology</h3>
+                <span class="card-sub-info">Da Vinci Robotic Kidney &bull; Lithotripsy</span>
+              </div>
+              <div class="card-action-circle">
+                <span class="card-arrow">&rarr;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3: ABOUT NEXORA (With Parallax Background Layer & Prestige Badges)
+         ========================================================================= -->
+    <section class="section-wrapper about-section" id="about">
+      <!-- Section Atmospheric Background Image with Parallax -->
+      <div class="section-parallax-bg-layer about-bg-layer">
+        <img 
+          src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=2200&q=85" 
+          alt="Hospital Interior Atrium Background" 
+          class="section-parallax-img"
+          data-speed="0.22">
+        <div class="section-overlay-cream about-overlay"></div>
+      </div>
+
+      <div class="section-container relative-content">
+        <div class="about-grid">
+          <!-- Left Text Column -->
+          <div class="about-left-col reveal-on-scroll">
+            <div class="sub-label">ABOUT NEXORA INTERNATIONAL</div>
+            <h2 class="section-heading">
+              Advanced Medicine.<br>
+              A More Human<br>
+              Approach.
+            </h2>
+            <p class="about-text">
+              At Nexora, we believe world-class healthcare begins where cutting-edge medical science meets deep human empathy. Our world-renowned faculty of 500+ specialists and caring medical staff deliver clinical excellence, personalized attention, and unconditional warmth at every stage of healing.
+            </p>
+
+            <div class="about-highlights-row">
+              <div class="ab-stat">
+                <span class="ab-num">25+</span>
+                <span class="ab-lbl">Years Legacy</span>
+              </div>
+              <div class="ab-stat-divider"></div>
+              <div class="ab-stat">
+                <span class="ab-num">99.8%</span>
+                <span class="ab-lbl">Safety Rate</span>
+              </div>
+              <div class="ab-stat-divider"></div>
+              <div class="ab-stat">
+                <span class="ab-num">JCI</span>
+                <span class="ab-lbl">Gold Certified</span>
+              </div>
+            </div>
+
+            <div class="about-doctor-sig-box">
+              <div class="sig-meta">
+                <span class="sig-name">Dr. Robert Vance, MD</span>
+                <span class="sig-title">Chief Medical Director &bull; Harvard Medical Fellow</span>
+              </div>
+              <a href="#comfort" class="btn-bronze about-btn">
+                <span>Our Heritage</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Center Visual: Doctor Holding Senior Patient's Hand with Prestige Badges -->
+          <div class="about-center-col reveal-on-scroll delay-1">
+            <div class="compassion-card">
+              <img 
+                src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1000&q=85" 
+                alt="Doctor gently holding patient's hand with warmth and empathy" 
+                class="compassion-img">
+              
+              <div class="compassion-caption">
+                <span class="caption-serif">Care<br>People<br>Trust</span>
+              </div>
+
+              <!-- Top Floating Badge -->
+              <div class="floating-glass-badge top-floating-badge">
+                <span class="badge-star">★</span>
+                <div class="badge-text-wrap">
+                  <span class="f-badge-title">JCI ACCREDITED 2026</span>
+                  <span class="f-badge-sub">Global Gold Standard</span>
+                </div>
+              </div>
+
+              <!-- Bottom Floating Metric Badge -->
+              <div class="floating-glass-badge btm-floating-badge">
+                <span class="badge-icon-heart">♥</span>
+                <div class="badge-text-wrap">
+                  <span class="f-badge-title">1,000,000+</span>
+                  <span class="f-badge-sub">Recoveries Celebrated</span>
+                </div>
+              </div>
+
+              <button class="video-play-btn" id="play-story-video" aria-label="Watch patient story video" onclick="openStoryVideo()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#9E7145"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column: 4 Key Pillars -->
+          <div class="about-right-col reveal-on-scroll delay-2">
+            <div class="pillars-list">
+              <div class="pillar-item active" onclick="activatePillar(0)">
+                <span class="pillar-num">01</span>
+                <div class="pillar-content">
+                  <span class="pillar-text">Patient-First Philosophy</span>
+                  <span class="pillar-sub">Bespoke clinical pathways designed around individual dignity and comfort.</span>
+                </div>
+              </div>
+              <div class="pillar-item" onclick="activatePillar(1)">
+                <span class="pillar-num">02</span>
+                <div class="pillar-content">
+                  <span class="pillar-text">Global Medical Standards</span>
+                  <span class="pillar-sub">Strict adherence to world-leading infection control & surgical protocols.</span>
+                </div>
+              </div>
+              <div class="pillar-item" onclick="activatePillar(2)">
+                <span class="pillar-num">03</span>
+                <div class="pillar-content">
+                  <span class="pillar-text">Holistic & Compassionate Care</span>
+                  <span class="pillar-sub">Clinical psychologists, nutritionists, and spiritual care supporting families.</span>
+                </div>
+              </div>
+              <div class="pillar-item" onclick="activatePillar(3)">
+                <span class="pillar-num">04</span>
+                <div class="pillar-content">
+                  <span class="pillar-text">Technology-Driven Medicine</span>
+                  <span class="pillar-sub">Next-generation robotic surgeries, 7T MRI scanners, and AI telemetry.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4: INNOVATION & TECHNOLOGY (Glowing Dark Medical Theater)
+         ========================================================================= -->
+    <section class="innovation-section" id="innovation">
+      <div class="innovation-bg-overlay">
+        <!-- Parallax Surgical Suite Background -->
+        <img 
+          src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=2200&q=85" 
+          alt="Surgeons in advanced robotic operating suite" 
+          class="innovation-bg-img parallax-item"
+          data-speed="0.25">
+        <div class="innovation-gradient-tint"></div>
+        <div class="innovation-glow-orb glow-orb-1"></div>
+        <div class="innovation-glow-orb glow-orb-2"></div>
+      </div>
+
+      <div class="section-container innovation-content-wrap relative-content">
+        <!-- Text & Headline -->
+        <div class="innovation-header-row reveal-on-scroll">
+          <div class="innovation-text-box">
+            <div class="theater-live-pill">
+              <span class="pulse-beacon-live"></span>
+              <span>NEXT-GEN SURGICAL THEATER &bull; ACTIVE</span>
+            </div>
+            <h2 class="innovation-heading">Pioneering Science.<br><span class="text-gold-gradient">Flawless Outcomes.</span></h2>
+            <p class="innovation-subtext">
+              From 4K-3D robotic-assisted micro-surgeries to real-time AI diagnostic mapping, we fuse bleeding-edge clinical technology with human expertise to ensure faster recovery, sub-millimeter precision, and unparalleled safety.
+            </p>
+          </div>
+          <div class="innovation-action-col">
+            <a href="#appointment-modal" class="btn-gold-pill" onclick="openBookingModal()">
+              <span>Explore Advanced Surgical Tech</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4 Technology Pillar Cards with Glowing Borders -->
+        <div class="innovation-features-row">
+          <!-- Card 1 -->
+          <div class="inno-feat-card reveal-on-scroll delay-1">
+            <div class="inno-card-inner">
+              <div class="inno-top-row">
+                <div class="inno-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E5C07B" stroke-width="1.8"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <span class="inno-metric-badge">0.1mm Precision</span>
+              </div>
+              <div class="inno-meta">
+                <h4 class="inno-title">DaVinci Xi Robotic Surgery</h4>
+                <p class="inno-desc">Minimally invasive incisions, 90% less blood loss, and accelerated discharge times.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="inno-feat-card reveal-on-scroll delay-2">
+            <div class="inno-card-inner">
+              <div class="inno-top-row">
+                <div class="inno-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E5C07B" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                </div>
+                <span class="inno-metric-badge">99.8% Accuracy</span>
+              </div>
+              <div class="inno-meta">
+                <h4 class="inno-title">AI Predictive Diagnostics</h4>
+                <p class="inno-desc">Neural algorithmic early detection for oncology, stroke, and cardiovascular pathologies.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="inno-feat-card reveal-on-scroll delay-3">
+            <div class="inno-card-inner">
+              <div class="inno-top-row">
+                <div class="inno-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E5C07B" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+                <span class="inno-metric-badge">Zero Downtime</span>
+              </div>
+              <div class="inno-meta">
+                <h4 class="inno-title">Telemetry Bio-ICU</h4>
+                <p class="inno-desc">24/7 continuous cardiac and neurological telemetry with instantaneous code alerts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="inno-feat-card reveal-on-scroll delay-4">
+            <div class="inno-card-inner">
+              <div class="inno-top-row">
+                <div class="inno-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E5C07B" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <span class="inno-metric-badge">CAR-T Labs</span>
+              </div>
+              <div class="inno-meta">
+                <h4 class="inno-title">Targeted Genomic Oncology</h4>
+                <p class="inno-desc">Cellular gene immunotherapies custom-tailored to the specific genomic fingerprint of each tumor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5: PATIENT-CENTRIC CARE (7-Star Luxury Healing Suites)
+         ========================================================================= -->
+    <section class="section-wrapper comfort-section" id="comfort">
+      <!-- Section Atmospheric Background Image with Parallax -->
+      <div class="section-parallax-bg-layer comfort-bg-layer">
+        <img 
+          src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2200&q=85" 
+          alt="Luxury Private Suite Interior Background" 
+          class="section-parallax-img"
+          data-speed="0.2">
+        <div class="section-overlay-cream comfort-overlay"></div>
+      </div>
+
+      <div class="section-container relative-content">
+        <div class="comfort-layout">
+          <!-- Left Intro Box -->
+          <div class="comfort-intro reveal-on-scroll">
+            <div class="sub-label">7-STAR PATIENT EXPERIENCE</div>
+            <h2 class="section-heading">Your Comfort,<br>Our Uncompromised<br>Priority</h2>
+            <p class="comfort-text">
+              We redefine the hospital stay as a luxurious healing sanctuary. Combining five-star hospitality with world-class clinical nursing, we ensure every moment of your recovery is serene, private, and restorative.
+            </p>
+            <div class="comfort-badge-list">
+              <span class="c-badge-pill">✓ 24/7 Butler & Dedicated Nurse</span>
+              <span class="c-badge-pill">✓ Michelin-Trained Clinical Chefs</span>
+              <span class="c-badge-pill">✓ HEPA-Filtered Acoustic Suites</span>
+            </div>
+            <a href="#facilities" class="btn-bronze" style="margin-top: 1.5rem;">
+              <span>Explore Presidential Suites</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Right 3 Feature Cards -->
+          <div class="comfort-cards-grid">
+            <!-- Card 1 -->
+            <div class="comfort-card reveal-on-scroll delay-1" onclick="openBookingModal()">
+              <div class="c-card-header">
+                <div class="c-card-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                </div>
+                <div>
+                  <h3 class="c-card-title">Presidential Healing Suite</h3>
+                  <p class="c-card-sub">Private terrace &bull; Smart room iPad automation</p>
+                </div>
+              </div>
+              <div class="c-card-image-wrap">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=85" alt="Luxury patient suite" class="c-img">
+                <span class="suite-tier-tag">VIP Sovereign Tier</span>
+              </div>
+              <div class="c-card-footer">
+                <span class="suite-amenity">Private Balcony &bull; Ensuite Bath</span>
+                <span class="suite-link">View Suite &rarr;</span>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="comfort-card reveal-on-scroll delay-2" onclick="openBookingModal()">
+              <div class="c-card-header">
+                <div class="c-card-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                </div>
+                <div>
+                  <h3 class="c-card-title">Dedicated Attending Doctor</h3>
+                  <p class="c-card-sub">Continuous personalized round-the-clock rounds</p>
+                </div>
+              </div>
+              <div class="c-card-image-wrap">
+                <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=700&q=85" alt="Doctor consulting patient in suite" class="c-img">
+                <span class="suite-tier-tag">1-on-1 Dedicated Care</span>
+              </div>
+              <div class="c-card-footer">
+                <span class="suite-amenity">Direct Physician Access &bull; 0 Wait</span>
+                <span class="suite-link">Learn More &rarr;</span>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="comfort-card reveal-on-scroll delay-3" onclick="openBookingModal()">
+              <div class="c-card-header">
+                <div class="c-card-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </div>
+                <div>
+                  <h3 class="c-card-title">Family Sanctuary & Lounges</h3>
+                  <p class="c-card-sub">Tranquil living rooms & bespoke dining</p>
+                </div>
+              </div>
+              <div class="c-card-image-wrap">
+                <img src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=700&q=85" alt="Family healing lounge" class="c-img">
+                <span class="suite-tier-tag">Family Living Quarters</span>
+              </div>
+              <div class="c-card-footer">
+                <span class="suite-amenity">Gourmet Dining &bull; Zen Garden</span>
+                <span class="suite-link">Explore &rarr;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 6: HEALING ARCHITECTURE & WELLBEING (Interactive 360 Gallery & Hotspots)
+         ========================================================================= -->
+    <section class="section-wrapper facilities-section" id="facilities">
+      <div class="section-container">
+        <div class="facilities-grid">
+          <!-- Left Column -->
+          <div class="fac-left-col reveal-on-scroll">
+            <div class="sub-label">HEALING ARCHITECTURE</div>
+            <h2 class="section-heading">Architecturally<br>Crafted for<br>Rapid Healing</h2>
+            <p class="fac-text">
+              Every curve, light fixture, and garden terrace at Nexora is backed by clinical environmental psychology. Biophilic greenery, circadian spectral lighting, and hospital-grade acoustic dampening accelerate physical healing and foster mental calm.
+            </p>
+            <div class="fac-features-strip">
+              <div class="fac-feat-item">
+                <span class="fac-feat-dot"></span>
+                <span>Air Quality: HEPA Level 14 Filtration</span>
+              </div>
+              <div class="fac-feat-item">
+                <span class="fac-feat-dot"></span>
+                <span>Acoustic Isolation: 32dB Ultra-Quiet</span>
+              </div>
+            </div>
+            <button class="btn-bronze" onclick="openBookingModal()" style="margin-top: 1.5rem;">
+              <span>Schedule Campus Tour</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Center Column: Grand Lobby Photo with Interactive Hotspots -->
+          <div class="fac-center-col reveal-on-scroll delay-1">
+            <div class="fac-main-view">
+              <img 
+                id="facility-active-img"
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85" 
+                alt="Nexora Grand Hospital Lobby with Biophilic Living Green Wall" 
+                class="fac-big-img">
+              
+              <!-- Interactive Hotspots -->
+              <div class="fac-hotspot hs-1" style="top: 28%; left: 35%;">
+                <span class="hotspot-pulse"></span>
+                <div class="hotspot-tooltip">
+                  <strong>Living Green Wall</strong>
+                  <span>Oxygen Enriched +35%</span>
+                </div>
+              </div>
+
+              <div class="fac-hotspot hs-2" style="top: 60%; left: 75%;">
+                <span class="hotspot-pulse"></span>
+                <div class="hotspot-tooltip">
+                  <strong>Circadian Lighting</strong>
+                  <span>-28% Patient Recovery Duration</span>
+                </div>
+              </div>
+
+              <div class="fac-badge-overlay">
+                <span class="fac-live-indicator"></span>
+                <span id="facility-active-name">Grand Central Lobby</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Vertical List of Spaces -->
+          <div class="fac-right-col reveal-on-scroll delay-2">
+            <div class="fac-items-list">
+              <div class="fac-item active" data-img="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85" data-name="Grand Central Lobby">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=180&q=85" alt="Grand Lobby" class="fac-mini-thumb">
+                <div class="fac-item-text">
+                  <span class="fac-item-title">Grand Central Lobby</span>
+                  <span class="fac-item-desc">Biophilic atrium & concierge</span>
+                </div>
+              </div>
+
+              <div class="fac-item" data-img="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85" data-name="Private Presidential Suites">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=180&q=85" alt="Private Suites" class="fac-mini-thumb">
+                <div class="fac-item-text">
+                  <span class="fac-item-title">Presidential Suites</span>
+                  <span class="fac-item-desc">Sovereign terrace accommodation</span>
+                </div>
+              </div>
+
+              <div class="fac-item" data-img="https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=1200&q=85" data-name="Healing Botanical Gardens">
+                <img src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=180&q=85" alt="Healing Gardens" class="fac-mini-thumb">
+                <div class="fac-item-text">
+                  <span class="fac-item-title">Healing Gardens</span>
+                  <span class="fac-item-desc">Therapeutic outdoor air walks</span>
+                </div>
+              </div>
+
+              <div class="fac-item" data-img="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85" data-name="Advanced Robotic OR Suites">
+                <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=180&q=85" alt="Advanced ORs" class="fac-mini-thumb">
+                <div class="fac-item-text">
+                  <span class="fac-item-title">Robotic OR Theaters</span>
+                  <span class="fac-item-desc">Ultra-sterile laminar airflow</span>
+                </div>
+              </div>
+
+              <div class="fac-item" data-img="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=85" data-name="Executive Family Lounges">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=180&q=85" alt="Family Lounges" class="fac-mini-thumb">
+                <div class="fac-item-text">
+                  <span class="fac-item-title">Family VIP Lounges</span>
+                  <span class="fac-item-desc">Private dining & meeting suites</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 7: OUR IMPACT STATS STRIP (Luxury Obsidian & Gold Prestige Ribbon)
+         ========================================================================= -->
+    <section class="impact-section" aria-label="Our Clinical Impact Statistics">
+      <div class="impact-bg-glow"></div>
+      <div class="section-container relative-content">
+        <div class="impact-layout">
+          <div class="impact-left reveal-on-scroll">
+            <div class="theater-live-pill impact-pill">
+              <span class="pulse-beacon-live"></span>
+              <span>VERIFIED CLINICAL MILESTONES</span>
+            </div>
+            <h3 class="impact-heading">Setting Global<br><span class="text-gold-gradient">Benchmarks in Care</span></h3>
+            <p class="impact-sub">Audited and certified annually by international hospital accreditation authorities.</p>
+          </div>
+          
+          <div class="impact-stats-row">
+            <div class="impact-cell reveal-on-scroll delay-1">
+              <span class="i-val" data-count="1">1M+</span>
+              <span class="i-lbl">Patients Healed</span>
+              <span class="i-sub">From 112+ nations</span>
+            </div>
+            <div class="impact-cell reveal-on-scroll delay-2">
+              <span class="i-val" data-count="500">500+</span>
+              <span class="i-lbl">Renowned Specialists</span>
+              <span class="i-sub">Harvard & Oxford faculty</span>
+            </div>
+            <div class="impact-cell reveal-on-scroll delay-3">
+              <span class="i-val" data-count="25">25+</span>
+              <span class="i-lbl">Centers of Excellence</span>
+              <span class="i-sub">Fully certified institutes</span>
+            </div>
+            <div class="impact-cell reveal-on-scroll delay-4">
+              <span class="i-val" data-count="350">350+</span>
+              <span class="i-lbl">ICU & Suite Beds</span>
+              <span class="i-sub">Laminar clean air airflow</span>
+            </div>
+            <div class="impact-cell reveal-on-scroll delay-1">
+              <span class="i-val" data-count="99.8">99.8%</span>
+              <span class="i-lbl">Clinical Success</span>
+              <span class="i-sub">Zero-compromise safety</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         NEW SECTION: RENOWNED MEDICAL FACULTY (Top World-Class Doctors)
+         ========================================================================= -->
+    <section class="section-wrapper doctors-section" id="doctors">
+      <!-- Section Atmospheric Background Image with Parallax -->
+      <div class="section-parallax-bg-layer doctors-bg-layer">
+        <img 
+          src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=2200&q=85" 
+          alt="Hospital Grand Gallery Architecture" 
+          class="section-parallax-img"
+          data-speed="0.18">
+        <div class="section-overlay-cream doctors-overlay"></div>
+      </div>
+
+      <div class="section-container relative-content">
+        <div class="section-title-row reveal-on-scroll">
+          <div>
+            <div class="sub-label">WORLD-RENOWNED SPECIALISTS</div>
+            <h2 class="section-heading">Headed by Leaders in<br>Global Medicine</h2>
+          </div>
+          <div class="title-right-actions">
+            <a href="#appointment-modal" class="view-all-link" onclick="openBookingModal()">
+              <span>View All 500+ Doctors</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="doctors-grid">
+          <!-- Doctor 1: Elena Rostova -->
+          <div class="doctor-card reveal-on-scroll delay-1" onclick="selectSpecialtyAndBook('Cardiology')">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80" alt="Dr. Elena Rostova" class="doctor-img">
+              <span class="doc-badge">Chief of Cardiology</span>
+              <div class="doc-avail-pill">
+                <span class="avail-dot"></span>
+                <span>Available Today</span>
+              </div>
+            </div>
+            <div class="doctor-details">
+              <div class="doc-rating">★★★★★ <span class="doc-reviews">(248 reviews)</span></div>
+              <h3 class="doc-name">Dr. Elena Rostova, MD, PhD</h3>
+              <p class="doc-title">Chair of Cardiovascular Surgery</p>
+              <div class="doc-creds">Harvard Medical School Fellow &bull; 22+ Yrs Exp</div>
+              <div class="doc-action-bar">
+                <span class="doc-procedure-stat">4,800+ Heart Surgeries</span>
+                <span class="doc-book-link">Consult &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Doctor 2: Marcus Thorne -->
+          <div class="doctor-card reveal-on-scroll delay-2" onclick="selectSpecialtyAndBook('Neurology')">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80" alt="Dr. Marcus Thorne" class="doctor-img">
+              <span class="doc-badge">Director of Neurosurgery</span>
+              <div class="doc-avail-pill">
+                <span class="avail-dot"></span>
+                <span>Available Today</span>
+              </div>
+            </div>
+            <div class="doctor-details">
+              <div class="doc-rating">★★★★★ <span class="doc-reviews">(312 reviews)</span></div>
+              <h3 class="doc-name">Dr. Marcus Thorne, MD</h3>
+              <p class="doc-title">Chief of Neurovascular Surgery</p>
+              <div class="doc-creds">Johns Hopkins Alum &bull; Awake Brain Mapping</div>
+              <div class="doc-action-bar">
+                <span class="doc-procedure-stat">3,200+ Cranial Cases</span>
+                <span class="doc-book-link">Consult &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Doctor 3: Sofia Al-Mansoor -->
+          <div class="doctor-card reveal-on-scroll delay-3" onclick="selectSpecialtyAndBook('Oncology')">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="Dr. Sofia Al-Mansoor" class="doctor-img">
+              <span class="doc-badge">Head of Oncology</span>
+              <div class="doc-avail-pill">
+                <span class="avail-dot"></span>
+                <span>Available Tomorrow</span>
+              </div>
+            </div>
+            <div class="doctor-details">
+              <div class="doc-rating">★★★★★ <span class="doc-reviews">(194 reviews)</span></div>
+              <h3 class="doc-name">Dr. Sofia Al-Mansoor, MD, MSc</h3>
+              <p class="doc-title">Chair of Precision Immunotherapy</p>
+              <div class="doc-creds">Oxford University PhD &bull; CAR-T Pioneer</div>
+              <div class="doc-action-bar">
+                <span class="doc-procedure-stat">97.4% Remission Rate</span>
+                <span class="doc-book-link">Consult &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Doctor 4: Julian Vance -->
+          <div class="doctor-card reveal-on-scroll delay-4" onclick="selectSpecialtyAndBook('Orthopedics')">
+            <div class="doctor-photo-wrap">
+              <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=800&q=80" alt="Dr. Julian Vance" class="doctor-img">
+              <span class="doc-badge">Chief Medical Director</span>
+              <div class="doc-avail-pill">
+                <span class="avail-dot"></span>
+                <span>Available Today</span>
+              </div>
+            </div>
+            <div class="doctor-details">
+              <div class="doc-rating">★★★★★ <span class="doc-reviews">(420 reviews)</span></div>
+              <h3 class="doc-name">Dr. Julian Vance, MD</h3>
+              <p class="doc-title">Director of Robotic Joint Reconstruction</p>
+              <div class="doc-creds">Stanford Medical Alum &bull; Olympic Physician</div>
+              <div class="doc-action-bar">
+                <span class="doc-procedure-stat">5,600+ Arthroplasties</span>
+                <span class="doc-book-link">Consult &rarr;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 8: PATIENT STORIES (Verified Clinical Recoveries & Video Case Studies)
+         ========================================================================= -->
+    <section class="section-wrapper testimonials-section" id="stories">
+      <!-- Section Atmospheric Background Image with Parallax -->
+      <div class="section-parallax-bg-layer stories-bg-layer">
+        <img 
+          src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=2200&q=85" 
+          alt="Hospital Healing Garden Sunset Background" 
+          class="section-parallax-img"
+          data-speed="0.22">
+        <div class="section-overlay-cream stories-overlay"></div>
+      </div>
+
+      <div class="section-container relative-content">
+        <div class="stories-layout">
+          <!-- Left Intro Box -->
+          <div class="stories-intro reveal-on-scroll">
+            <div class="sub-label">REAL STORIES, REAL IMPACT</div>
+            <h2 class="section-heading">Lives Transformed<br>Through Care &<br>Precision</h2>
+            <p class="stories-desc">
+              Behind every medical outcome is a human journey of courage, hope, and rebirth. Read firsthand words from patients who entrusted our specialists with their life's most precious gift.
+            </p>
+            <div class="stories-meta-pill">
+              <span class="verified-shield">🛡️</span>
+              <span>100% Verified Clinical Patient Outcomes</span>
+            </div>
+            <div class="slider-arrows" style="margin-top: 2rem;">
+              <button class="arrow-btn" id="reviews-prev" aria-label="Previous review">&larr;</button>
+              <button class="arrow-btn" id="reviews-next" aria-label="Next review">&rarr;</button>
+            </div>
+          </div>
+
+          <!-- Right 3 Testimonial Cards -->
+          <div class="stories-cards-grid" id="reviews-grid">
+            <!-- Review 1 -->
+            <div class="testimonial-card reveal-on-scroll delay-1">
+              <div class="test-top-badges">
+                <span class="case-badge">Heart Institute Case</span>
+                <span class="recovery-time">Treated Oct 2026</span>
+              </div>
+              <div class="quote-sign">“</div>
+              <p class="test-body">
+                "The minimally invasive robotic valve surgery performed by Dr. Rostova gave me my life back. I walked out of the hospital in just 48 hours without pain. The level of medical sophistication and warmth is truly unrivaled anywhere in the world."
+              </p>
+              <div class="test-user-row">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=140&q=80" alt="Alistair Reed" class="test-avatar">
+                <div class="test-user-meta">
+                  <span class="user-name">ALISTAIR REED</span>
+                  <span class="user-tag">Complex Robotic Valve Replacement &bull; London, UK</span>
+                </div>
+                <div class="test-stars">★★★★★</div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testimonial-card reveal-on-scroll delay-2">
+              <div class="test-top-badges">
+                <span class="case-badge">Maternity Wing</span>
+                <span class="recovery-time">Treated Sep 2026</span>
+              </div>
+              <div class="quote-sign">“</div>
+              <p class="test-body">
+                "Delivering our twins in the Presidential Family Suite felt like being at a serene luxury resort with the world's most capable neonatal team right by our side. Every doctor and nurse treated us like their own family."
+              </p>
+              <div class="test-user-row">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=140&q=80" alt="Priya Sharma" class="test-avatar">
+                <div class="test-user-meta">
+                  <span class="user-name">PRIYA SHARMA</span>
+                  <span class="user-tag">Twin Delivery &bull; High-Risk Obstetrics &bull; Dubai, UAE</span>
+                </div>
+                <div class="test-stars">★★★★★</div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testimonial-card reveal-on-scroll delay-3">
+              <div class="test-top-badges">
+                <span class="case-badge">Neuro Center</span>
+                <span class="recovery-time">Treated Aug 2026</span>
+              </div>
+              <div class="quote-sign">“</div>
+              <p class="test-body">
+                "After being told by three hospitals that my spinal tumor was inoperable, Dr. Thorne utilized 7T MRI navigational guidance to remove it completely. I am now back to running marathons. Nexora is a temple of miracles."
+              </p>
+              <div class="test-user-row">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=140&q=80" alt="David Meyer" class="test-avatar">
+                <div class="test-user-meta">
+                  <span class="user-name">DAVID MEYER</span>
+                  <span class="user-tag">Microsurgical Neuro-Oncology &bull; Munich, Germany</span>
+                </div>
+                <div class="test-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         EMERGENCY & TRAUMA 24/7 RAPID RESPONSE BANNER (Red Glow Luxury Action Strip)
+         ========================================================================= -->
+    <section class="emergency-action-strip" aria-label="Emergency 24/7 Rapid Response">
+      <div class="section-container">
+        <div class="emergency-strip-content">
+          <div class="emergency-left">
+            <div class="emergency-pulse-wrap">
+              <span class="emergency-sonar"></span>
+              <span class="emergency-dot"></span>
+            </div>
+            <div class="emergency-text-group">
+              <span class="emergency-badge-top">LEVEL 1 TRAUMA & AIR AMBULANCE ON STANDBY</span>
+              <h3 class="emergency-title">Critical Emergency? Instant 24/7 Dispatch</h3>
+              <p class="emergency-sub">Helipad active &bull; Cath Lab 3-minute ready &bull; Zero triage delay</p>
+            </div>
+          </div>
+          <div class="emergency-right">
+            <a href="tel:+18005550199" class="btn-emergency-hotline">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+1 (800) 555-0199</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 9: CTA BANNER (VIP Grand Canopy Appointment Invitation)
+         ========================================================================= -->
+    <section class="cta-banner-section" id="booking-cta">
+      <div class="cta-banner-container reveal-on-scroll">
+        <!-- Hospital curved architectural background image with Parallax -->
+        <img 
+          src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=2200&q=85" 
+          alt="Nexora Hospital Welcoming Grand Canopy" 
+          class="cta-banner-bg parallax-item"
+          data-speed="0.2">
+        <div class="cta-banner-overlay"></div>
+
+        <div class="cta-banner-content">
+          <div class="vip-invitation-badge">
+            <span class="vip-star">★</span>
+            <span>EXECUTIVE CONSULTATIONS &bull; GLOBAL APPOINTMENT DESK</span>
+          </div>
+          <h2 class="cta-title">Begin Your Pathway to<br><span class="text-gold-gradient">Flawless Health Today</span></h2>
+          <p class="cta-desc">
+            Direct priority access to over 500 world-renowned clinicians, comprehensive diagnostic full-body scans, and bespoke recovery suites.
+          </p>
+
+          <div class="cta-btn-group">
+            <button class="btn-gold-pill" onclick="openBookingModal()">
+              <span>Book Priority Consultation</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <a href="tel:+18005550199" class="btn-outline-pill cta-phone-btn">
+              <span>Direct Concierge: +1 (800) 555-0199</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       SECTION 10: FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-col brand-col">
+          <a href="#" class="brand-logo footer-logo">
+            <div class="logo-symbol">
+              <svg width="30" height="30" viewBox="0 0 100 100" fill="none">
+                <path d="M50 0L56 36C58 44 64 50 72 52L98 50L72 58C64 60 58 66 56 74L50 100L44 74C42 66 36 60 28 58L2 50L28 52C36 50 42 44 44 36L50 0Z" fill="#9E7145"/>
+                <circle cx="50" cy="50" r="7" fill="#FAF7F2"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">NEXORA</span>
+              <span class="brand-tagline">INTERNATIONAL HOSPITAL</span>
+            </div>
+          </a>
+          <p class="footer-about-text">
+            Compassionate care, world-class medicine, dedicated to a healthier tomorrow for you and your family.
+          </p>
+          <div class="footer-social-row">
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="YouTube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">QUICK LINKS</h4>
+          <ul class="footer-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#specialties">Specialties</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#comfort">Patient Care</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Specialties -->
+        <div class="footer-col">
+          <h4 class="footer-heading">OUR SPECIALTIES</h4>
+          <ul class="footer-menu">
+            <li><a href="#specialties">Cardiology</a></li>
+            <li><a href="#specialties">Neurology</a></li>
+            <li><a href="#specialties">Orthopedics</a></li>
+            <li><a href="#specialties">Oncology</a></li>
+            <li><a href="#specialties">Women's Health</a></li>
+            <li><a href="#specialties">Pediatrics</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Info -->
+        <div class="footer-col">
+          <h4 class="footer-heading">REACH US</h4>
+          <div class="footer-contact-items">
+            <div class="f-contact-line">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>1240 Health Avenue, Los Angeles, CA 90024</span>
+            </div>
+            <div class="f-contact-line">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+18005550199">+1 (800) 555-0199</a>
+            </div>
+            <div class="f-contact-line">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:contact@nexorahospital.com">contact@nexorahospital.com</a>
+            </div>
+            <div class="f-contact-line">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9E7145" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Emergency Services: 24/7 Open</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 5: Stay Informed Newsletter -->
+        <div class="footer-col newsletter-col">
+          <h4 class="footer-heading">STAY INFORMED</h4>
+          <p class="f-news-sub">Get the latest health tips, research, and hospital updates.</p>
+          <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+            <input type="email" placeholder="Enter your email" required class="news-input">
+            <button type="submit" class="news-submit-btn" aria-label="Subscribe to newsletter">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </form>
+          <div id="news-msg" class="news-success-msg">Thank you for subscribing!</div>
+        </div>
+      </div>
+
+      <!-- Copyright Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div class="f-copy">&copy; 2026 Nexora International Hospital. All rights reserved.</div>
+        <div class="f-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       INTERACTIVE BOOKING MODAL (Pop-up Form)
+       ========================================================================= -->
+  <div class="modal-overlay" id="appointment-modal" aria-hidden="true">
+    <div class="modal-window">
+      <div class="modal-top">
+        <div>
+          <span class="sub-label">PRIORITY SCHEDULING</span>
+          <h3 class="modal-heading">Book Your Consultation</h3>
+        </div>
+        <button class="modal-close" onclick="closeBookingModal()">&times;</button>
+      </div>
+
+      <form id="booking-form" onsubmit="handleAppointmentSubmit(event)">
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="modal-specialty">Select Specialty</label>
+            <select id="modal-specialty" required>
+              <option value="Cardiology">Cardiology & Heart Center</option>
+              <option value="Neurology">Neurology & Neurosurgery</option>
+              <option value="Orthopedics">Orthopedics & Joint Replacement</option>
+              <option value="Oncology">Comprehensive Oncology</option>
+              <option value="Women's Health">Women's Health & Maternity</option>
+              <option value="Pediatrics">Pediatric Care</option>
+              <option value="Gastroenterology">Gastroenterology</option>
+              <option value="Urology">Urology & Nephrology</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="modal-doctor">Preferred Specialist</label>
+            <select id="modal-doctor">
+              <option value="Any Specialist">First Available Chief Specialist</option>
+              <option value="Dr. Evelyn Vance">Dr. Evelyn Vance (Chief of Neurosurgery)</option>
+              <option value="Dr. Marcus Sterling">Dr. Marcus Sterling (Chief Cardiologist)</option>
+              <option value="Dr. Julian Thorne">Dr. Julian Thorne (Lead Orthopedic Surgeon)</option>
+              <option value="Dr. Elena Rostova">Dr. Elena Rostova (Oncology Director)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="modal-name">Patient Full Name</label>
+            <input type="text" id="modal-name" placeholder="e.g. John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="modal-phone">Contact Phone / WhatsApp</label>
+            <input type="tel" id="modal-phone" placeholder="+1 (555) 000-0000" required>
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="modal-date">Preferred Date</label>
+            <input type="date" id="modal-date" required>
+          </div>
+          <div class="form-group">
+            <label for="modal-time">Time Slot</label>
+            <select id="modal-time">
+              <option value="Morning">Morning (09:00 AM - 12:00 PM)</option>
+              <option value="Afternoon">Afternoon (01:00 PM - 04:00 PM)</option>
+              <option value="Evening">Evening (05:00 PM - 07:00 PM)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="modal-notes">Reason for Visit / Symptoms (Optional)</label>
+          <textarea id="modal-notes" rows="3" placeholder="Briefly describe your symptoms or inquiry..."></textarea>
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn-cancel" onclick="closeBookingModal()">Cancel</button>
+          <button type="submit" class="btn-bronze">Confirm Appointment &rarr;</button>
+        </div>
+      </form>
+
+      <!-- Confirmation Screen -->
+      <div id="booking-success" class="booking-success-box" style="display: none;">
+        <div class="success-icon">✓</div>
+        <h4 class="success-title">Appointment Confirmed</h4>
+        <p class="success-text" id="success-summary">
+          Your priority appointment at Nexora International Hospital has been registered. Our patient concierge will contact you shortly with check-in instructions.
+        </p>
+        <button class="btn-bronze" onclick="closeBookingModal()">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEARCH MODAL OVERLAY -->
+  <div class="search-modal-overlay" id="search-modal">
+    <div class="search-modal-box">
+      <div class="search-modal-header">
+        <input type="text" id="site-search-input" placeholder="Search doctors, specialties, treatments, or rooms..." autofocus>
+        <button class="search-modal-close" id="search-close-btn">&times;</button>
+      </div>
+      <div class="search-quick-tags">
+        <span class="q-tag" onclick="quickSearch('Cardiology')">Cardiology</span>
+        <span class="q-tag" onclick="quickSearch('Robotic Surgery')">Robotic Surgery</span>
+        <span class="q-tag" onclick="quickSearch('VIP Suite')">VIP Suites</span>
+        <span class="q-tag" onclick="quickSearch('Emergency')">24/7 Emergency</span>
+        <span class="q-tag" onclick="quickSearch('Neurology')">Neurology</span>
+      </div>
+      <div class="search-results-list" id="search-results">
+        <!-- Results inject via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING CALL TO ACTION PILL -->
+  <a href="tel:+18005550199" class="floating-emergency-bubble" title="24/7 Emergency Hotline">
+    <span class="bubble-pulse"></span>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
+    </svg>
+    <span class="bubble-text">Emergency: 24/7</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
